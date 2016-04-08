@@ -7,7 +7,7 @@
     <div class="pure-g">
 
         <div class="pure-u-1-2">
-            <% this.Response.Write("Hello 2.0"); %>
+            Loft conversions in Bristol.
         </div>
     </div>
 </asp:Content>
