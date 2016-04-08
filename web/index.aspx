@@ -1,12 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" %>
+﻿<%@  Language="C#" MasterPageFile="~/MasterPage.master" %>
 
-<script runat="server">
-
-</script>
-
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <% Response.Write("Hello 2.0"); %>
+<asp:Content ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 
+<asp:Content ContentPlaceHolderID="body" runat="Server">
+    <div class="pure-g">
+
+        <div class="pure-u-1-2">
+            <% this.Response.Write("Hello 2.0"); %>
+        </div>
+    </div>
+</asp:Content>
