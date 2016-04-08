@@ -4,17 +4,24 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder id="head" runat="server">
+    <title>js lofts | loft conversions in Bristol</title>
+    <meta name="description" content="Loft conversions in Bristol"/>
+    <meta name="robots" content="index,follow,noodp"/>
+    <meta name="googlebot" content="index,follow,noodp"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="UTF-8"/>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
 </head>
+
 <body>
-    <form id="form1" runat="server">
+
     <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-    </form>
+
 </body>
 </html>
