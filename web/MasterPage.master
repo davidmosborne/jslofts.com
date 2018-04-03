@@ -5,36 +5,40 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>js lofts | loft conversions in Bristol</title>
-    <meta name="description" content="Loft conversions in Bristol" />
-    <meta name="robots" content="index,follow,noodp" />
-    <meta name="googlebot" content="index,follow,noodp" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Loft conversions in Bristol"/>
+    <meta name="robots" content="index,follow,noodp"/>
+    <meta name="googlebot" content="index,follow,noodp"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <meta property="og:url" content="http://www.jslofts.com/index.html" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="JS Lofts" />
-    <meta property="og:description" content="High quality loft conversions in Bristol" />
+    <meta property="og:url" content="https://www.jslofts.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="JS Lofts"/>
+    <meta property="og:description" content="High quality loft conversions in Bristol"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"/>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet" />
-
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" />
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+        integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
+        crossorigin="anonymous"/>
 
     <!--[if lte IE 8]>
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css"/>1
     <!--<![endif]-->
 
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/> 
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
 
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="content/css/marketing-old-ie.css"/>
     <![endif]-->
     <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="content/css/marketing.css"/>
+    <link rel="stylesheet" href="content/css/marketing.css"/>
     <!--<![endif]-->
 
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -43,25 +47,28 @@
 </head>
 
 <body>
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                appId: '1791339257763984',
-                xfbml: true,
-                version: 'v2.6'
-            });
-        };
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId: '1791339257763984',
+            xfbml: true,
+            version: 'v2.6'
+        });
+    };
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) { return; }
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
-    <asp:ContentPlaceHolder ID="body" runat="server" />
-    
+<asp:ContentPlaceHolder ID="body" runat="server"/>
+
 </body>
 </html>
