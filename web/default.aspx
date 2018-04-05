@@ -8,8 +8,9 @@
     <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
         <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="https://www.facebook.com/pg/jslofts/photos" class="pure-menu-link">View our work</a></li>
             <li class="pure-menu-item pure-menu-selected">Contact us: 07930 538 311</li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">info@jslofts.com</a></li>
+            <li class="pure-menu-item"><a href="mailto:info@jslofts.com?cc=johnpmcintyre52@outlook.com&subject=Website%20Enquiry" class="pure-menu-link">info@jslofts.com</a></li>
         </ul>
     </div>
 </div>
@@ -79,7 +80,7 @@
             <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
                 <h4>Contact Us</h4>
                 <p>Speak to John on: 07930 538 311</p>
-                <p>Mail us: <a href="">info@jslofts.com</a></p>
+                <p>Mail us: <a href="mailto:info@jslofts.com?cc=johnpmcintyre52@outlook.com&subject=Website%20Enquiry">info@jslofts.com</a></p>
 
             </div>
         </div>
